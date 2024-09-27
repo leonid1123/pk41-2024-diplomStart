@@ -143,7 +143,7 @@
             listBox1.ItemHeight = 37;
             listBox1.Location = new Point(777, 28);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(494, 411);
+            listBox1.Size = new Size(963, 411);
             listBox1.TabIndex = 10;
             // 
             // textBox5
@@ -170,7 +170,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1283, 537);
+            ClientSize = new Size(1766, 537);
             Controls.Add(label6);
             Controls.Add(textBox5);
             Controls.Add(listBox1);
@@ -186,6 +186,7 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Генерация логина и пароля";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
